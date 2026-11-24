@@ -117,3 +117,5 @@ def main():
     finally:
         server.shutdown()
 if __name__=="__main__":main()
+
+# Execução de revisão: 24/11/2026; não ativa GitHub Pages.
