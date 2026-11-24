@@ -15,7 +15,11 @@ jobs:
         with:
           python-version: '3.11'
       - run: python -m pip install 'playwright>=1.51,<2' && python -m playwright install --with-deps chromium
-      - run: command -v ffmpeg && command -v ffprobe
+      - name: Instalar codificadores de vídeo
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          command -v ffmpeg && command -v ffprobe
       - run: python qa/capturar_portfolio.py
       - uses: actions/upload-artifact@v4
         if: always()
