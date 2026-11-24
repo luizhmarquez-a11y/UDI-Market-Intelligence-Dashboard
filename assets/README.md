@@ -8,6 +8,6 @@ As capturas de revisão foram geradas automaticamente pelo navegador a partir do
 - [GIFs](gifs/README.md): demonstração curta de navegação, filtros e pesquisa.
 - [Vídeos](videos/README.md): demonstração real de 60–90 segundos, destinada ao lançamento.
 
-Os arquivos de mídia ainda estão sendo preparados para revisão. Não há vídeo publicado nem link para uma interface pública nesta edição.
+Os arquivos de mídia ainda estão sendo preparados para revisão. Não há vídeo publicado nem site público ativo nesta edição. O painel estático de revisão está em [docs/index.html](../docs/index.html).
 
 [Voltar à apresentação](../README.md)

@@ -8,6 +8,7 @@
 - Revisão dos saldos setoriais de emprego formal de setembro/2026.
 - Interface com sete páginas e ajuste responsivo testado em três larguras.
 - 141 testes Python e verificações de navegador aprovados.
-- Portfólio separado do código-fonte e dos arquivos internos.
+- Portfólio separado do processamento e dos arquivos internos; edição estática preparada para GitHub Pages.
+- Atualização editorial da transparência: arquivos candidatos CNES/Cadastur obtidos, mas não homologados; autoria no rodapé.
 
-**Limites:** zero séries setoriais P4 homologadas; pilotos Saúde, Hotelaria e Energia Solar em desenvolvimento. Não houve lançamento público ou disponibilização do software nesta etapa.
+**Limites:** zero séries setoriais P4 homologadas; pilotos Saúde, Hotelaria e Energia Solar em desenvolvimento. Não houve lançamento público; somente a edição estática de apresentação está em revisão privada.

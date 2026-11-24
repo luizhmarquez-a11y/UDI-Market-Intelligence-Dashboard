@@ -8,6 +8,14 @@ O objetivo é transformar informações dispersas em evidências que possam orie
 
 > **Status:** Beta 1.0 documental — candidato à divulgação, com interface funcional e identidade visual preservada. Não é uma plataforma governamental nem um serviço de atualização em tempo real.
 
+## Acesse o painel interativo
+
+**Endereço previsto do observatório:** [https://luizhmarquez-a11y.github.io/UDI-Market-Intelligence-Portfolio/](https://luizhmarquez-a11y.github.io/UDI-Market-Intelligence-Portfolio/)
+
+> O GitHub Pages ainda não foi ativado. O link passará a funcionar após a aprovação e publicação. Para revisão privada, [baixar a versão HTML de demonstração](docs/index.html) pelo botão **Download raw file** e abrir no navegador.
+
+O painel não exige cadastro ou instalação quando hospedado. As sete áreas, os filtros, a busca e as exportações funcionam diretamente no navegador.
+
 ## O observatório em números
 
 | Escopo | Cobertura atual |
@@ -34,7 +42,7 @@ O observatório possui sete áreas integradas:
 - **Fontes e metodologia:** catálogo institucional e regras de interpretação.
 - **Notas de inteligência:** relatórios exploratórios por mercado e exportação de informações.
 
-Este portfólio apresenta a arquitetura, a metodologia e as funcionalidades do observatório. O painel foi desenvolvido como HTML interativo offline; não há hospedagem pública nesta edição. O repositório de desenvolvimento e seu código-fonte permanecem privados.
+Este portfólio reúne a documentação e a edição estática de leitura do observatório, preparada para GitHub Pages. O HTML, CSS, JavaScript e o acervo documental incorporado à interface são inspecionáveis pelo navegador; os scripts de processamento, bases brutas e o repositório de desenvolvimento permanecem privados. Não há site público ativo até a aprovação.
 
 ## Exemplos de leitura econômica
 
@@ -118,12 +126,13 @@ A evolução concentra-se em coleta primária, harmonização CNAE, comparabilid
 | [Demonstrações](assets/README.md) | Organização das capturas e vídeos do painel |
 | [Histórico de versões](CHANGELOG.md) | Escopo da versão de apresentação |
 | [Direitos e atribuições](DIREITOS.md) | Condições dos materiais e fontes |
+| [Registro da edição](docs/registro-edicao.md) | Proveniência, verificações e limites da candidata à publicação |
 
 ## Autoria e condições de uso
 
 **Luiz Henrique Marques Costa** — projeto independente de portfólio em inteligência de negócios, Ciência de Dados e estatística aplicada.
 
-O software original está sob a [PolyForm Strict License 1.0.0](https://polyformproject.org/licenses/strict/1.0.0/), que não é uma licença open source. Os dados, marcas e publicações institucionais de terceiros têm condições próprias; a licença do software não concede direitos sobre esses materiais. Os resultados têm caráter exploratório e não constituem aconselhamento financeiro, avaliação de crédito ou recomendação de investimento.
+O software original e a interface demonstrativa estão sob a [PolyForm Strict License 1.0.0](https://polyformproject.org/licenses/strict/1.0.0/), que não é uma licença open source. Os dados, marcas e publicações institucionais de terceiros têm condições próprias; a licença do software não concede direitos sobre esses materiais. Os resultados têm caráter exploratório e não constituem aconselhamento financeiro, avaliação de crédito ou recomendação de investimento.
 
 ---
 

@@ -22,7 +22,7 @@ O observatório mantém sete alertas documentais para divergências entre public
 
 ## Privacidade
 
-O portfólio não inclui microdados, identificadores individuais, logs, arquivos de configuração, histórico do repositório de desenvolvimento ou arquivos de processamento. Imagens e vídeos devem passar por revisão antes da publicação. A inspeção estática de padrões sensíveis não constitui garantia absoluta ou pentest.
+O portfólio contém a edição estática do painel, com acervo documental P2 e código de interface inspecionável. Não inclui microdados, identificadores individuais, logs do desenvolvimento, configurações privadas, histórico do repositório de desenvolvimento ou arquivos de processamento. Imagens e vídeos devem passar por revisão antes da publicação. A inspeção estática de padrões sensíveis não constitui garantia absoluta ou pentest.
 
 ## Limites e direitos
 
