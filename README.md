@@ -1,145 +1,175 @@
+<div align="center">
+
 # UDI Market Intelligence
 
-**Observatório Econômico de Uberlândia | Inteligência de mercado, estatística aplicada e governança de dados**
+**Observatório Econômico de Uberlândia, Minas Gerais**
 
-Projeto autoral e independente que organiza informações econômicas de Uberlândia (MG) em uma experiência analítica: indicadores, movimentos empresariais, investigação setorial e transparência metodológica.
+Market Intelligence · Data Science · Business Analytics · Data Governance
 
-O objetivo é transformar informações dispersas em evidências que possam orientar perguntas de negócio, análises de mercado e novas investigações — sem atribuir aos dados conclusões que eles não sustentam.
+**Beta 1.0 documental | Projeto independente**
 
-> **Status:** Beta 1.0 documental — candidato à divulgação, com interface funcional e identidade visual preservada. Não é uma plataforma governamental nem um serviço de atualização em tempo real.
+[**Explorar o dashboard**](docs/index.html) · [Assistir à demonstração](assets/videos/demonstracao-udi-beta.mp4) · [Metodologia](docs/metodologia.md) · [Arquitetura](docs/arquitetura.md)
 
-## Acesse o painel interativo
+</div>
 
-**[Acessar o dashboard — Beta 1.0](docs/index.html)**
+![Visão geral real do UDI Market Intelligence, com indicadores de empresas, emprego e comércio exterior](assets/screenshots/desktop-visao.png)
 
-### Avaliação privada
+| Mercados catalogados | Subsetores mapeados | Indicadores documentais (P2) | Acontecimentos documentados |
+| :---: | :---: | :---: | :---: |
+| **12** | **82** | **25** | **38** |
 
-1. Acesse o arquivo pelo link acima, com sua conta GitHub autorizada neste repositório.
+> **Edição de avaliação — 24/11/2026.** Acervo documental, não uma série estatística completa ou monitoramento em tempo real. Os 82 subsetores constituem uma taxonomia de investigação, não 82 séries quantitativas validadas. Não há séries P4 homologadas.
+
+## Acesse o dashboard interativo
+
+### [**Baixar e explorar o painel — Beta 1.0**](docs/index.html)
+
+1. Abra o link acima. Enquanto o repositório estiver privado, entre com uma conta autorizada no GitHub.
 2. Clique em **Download raw file** (ícone de download no canto superior direito da visualização do arquivo).
-3. Abra o arquivo `index.html` baixado no Chrome ou Edge. Não é necessário instalar programas ou iniciar um servidor.
+3. Abra o arquivo `index.html` no Chrome ou Edge.
 
-O painel funciona offline, com sete áreas de navegação, filtros, busca e exportações. O GitHub exibe o código do arquivo HTML, não a interface executada; por isso, é necessário baixá-lo para esta avaliação.
+O painel é um HTML autônomo: funciona offline, sem instalações, servidor ou dependências externas para navegar. O GitHub mostra o código do arquivo HTML; o download é necessário para executar a interface. Os links das fontes institucionais exigem internet.
 
-**Acesso direto pelo navegador:** hospedagem autenticada em preparação; o endereço será inserido somente após verificar a restrição de acesso. Por enquanto, utilize o arquivo HTML acima. Consulte o [protocolo de hospedagem privada](docs/hospedagem-privada.md). O repositório permanece privado.
+### Demonstração real
 
-## O observatório em números
+![Gravação da navegação real pelo catálogo de mercados e filtro Saúde e Hospitais](assets/gifs/navegacao-e-filtros.gif)
 
-| Escopo | Cobertura atual |
-|---|---:|
-| Grandes mercados catalogados | 12 |
-| Subsetores mapeados | 82 |
-| Indicadores documentais (P2) | 25 |
-| Acontecimentos documentados | 38 |
-| Extratos históricos selecionados | 29 |
-| Alertas de qualidade | 7 |
-| Séries setoriais homologadas (P4) | 0 |
+[**Vídeo demonstrativo completo (75 segundos)**](assets/videos/demonstracao-udi-beta.mp4) · [Galeria de capturas desktop e mobile](assets/screenshots/README.md)
 
-O recorte histórico dos acontecimentos abrange 2022 a setembro de 2026, com atualizações qualitativas posteriores. As competências dos indicadores variam por fonte; emprego formal até setembro e comércio exterior com atualização documental até outubro de 2026.
+## O problema de negócio
 
-## Conheça o painel
+Informações sobre a economia municipal estão dispersas entre bases governamentais, boletins, publicações institucionais e notícias de mercado. Reunir essas evidências não é suficiente: competências, universos, unidades e níveis de confiabilidade nem sempre são comparáveis.
 
-O observatório possui sete áreas integradas:
+O UDI Market Intelligence foi concebido para organizar esse cenário em uma interface analítica, com proveniência e ressalvas explícitas. A proposta é reduzir o esforço de pesquisa, orientar perguntas de negócio e permitir que cada leitura seja confrontada com sua fonte original.
 
-- **Visão geral:** indicadores econômicos, gráficos e leituras contextualizadas.
-- **Setores e subsetores:** filtros para 82 recortes de investigação e fontes candidatas.
-- **Indicadores documentados:** valores com competência, unidade, fonte e natureza da evidência.
-- **Movimentos de mercado:** acontecimentos, anúncios, iniciativas e empreendimentos com estágio e origem identificados.
-- **Auditoria e limites:** conflitos, lacunas e critérios de validação.
-- **Fontes e metodologia:** catálogo institucional e regras de interpretação.
-- **Notas de inteligência:** relatórios exploratórios por mercado e exportação de informações.
-
-Este portfólio reúne a documentação e a edição estática de leitura do observatório, preparada para GitHub Pages. O HTML, CSS, JavaScript e o acervo documental incorporado à interface são inspecionáveis pelo navegador; os scripts de processamento, bases brutas e o repositório de desenvolvimento permanecem privados. Não há site público ativo até a aprovação.
-
-## Exemplos de leitura econômica
-
-| Evidência documental | Leitura correta |
+| Dimensão | Aplicação proposta |
 |---|---|
-| 6.619 empresas constituídas em 2025 (JUCEMG) | Constituições anuais sem MEI, não estoque de empresas ativas. |
-| 233.965 vínculos formais em setembro de 2026 | Estoque divulgado do Novo Caged; não corresponde necessariamente a pessoas distintas. |
-| +611 postos líquidos em setembro de 2026 | Saldo mensal publicado; não equivale à variação direta entre estoques de diferentes edições. |
-| US$ 1,214 bilhão exportado, US$ 183,3 milhões importados e US$ 1,030 bilhão de saldo em jan–out/2026 | Agregados obtidos da API oficial Comex Stat em 24/11/2026; saldo calculado em dólares inteiros. Domicílio fiscal do declarante, não necessariamente origem produtiva. |
+| Inteligência de mercado | Investigar segmentos, movimentos empresariais e fontes de informação |
+| Estratégia e negócios | Contextualizar decisões de expansão e estudos de mercado |
+| Gestão pública e pesquisa | Consultar indicadores municipais e identificar lacunas de evidência |
+| Governança de dados | Distinguir fatos documentados, intenções, aproximações e séries homologadas |
 
-Fontes: [JUCEMG / Agência Minas](https://www.agenciaminas.mg.gov.br/noticia/minas-gerais-teve-mais-de-114-mil-novas-empresas-abertas-em-2025-128761), [CEPES/IERI/UFU — boletim de setembro](https://www.ieri.ufu.br/acontece/2026-11-boletim-mensal-do-emprego-de-uberlandia-setembro-de-2026), [Comex Stat / MDIC](https://comexstat.mdic.gov.br/pt/municipio), [Prefeitura — comércio exterior](https://www.uberlandia.mg.gov.br/2026/11/10/uberlandia-volta-a-figurar-entre-os-10-municipios-maiores-exportadores-de-minas-gerais/). Nenhuma dessas leituras representa previsão ou recomendação de investimento.
+Esses são casos de uso propostos; não representam resultados de adoção comercial ou validação de clientes.
 
-## Arquitetura e tecnologias
+## Explore as funcionalidades
+
+| Área | O que é possível consultar |
+|---|---|
+| Visão geral | Indicadores econômicos, gráficos e leituras contextualizadas |
+| Mercados e subsetores | Filtros por mercado e segmento; fontes candidatas |
+| Indicadores documentados | Valores, competências, unidades, fontes e ressalvas |
+| Movimentos de mercado | Acontecimentos, anúncios e iniciativas, com busca e filtros |
+| Auditoria e limites | Divergências, lacunas e critérios de exclusão |
+| Fontes e metodologia | Catálogo de fontes e níveis de evidência |
+| Nota de inteligência | Relatórios exploratórios por mercado e exportações |
+
+![Tela real de indicadores documentados, incluindo constituições anuais de empresas](assets/screenshots/desktop-indicadores.png)
+
+## Evidências e leituras econômicas
+
+| Indicador | Resultado | Interpretação e limite |
+|---|---:|---|
+| Constituições de empresas em 2025 | **6.619** | JUCEMG, ano completo, sem MEI; não equivale a empresas ativas |
+| Estoque de vínculos formais, set/2026 | **233.965** | Vínculos, não necessariamente pessoas distintas |
+| Saldo de emprego formal, set/2026 | **+611** | Admissões menos desligamentos; não confundir com variação do estoque |
+| Exportações, jan–out/2026 | **US$ 1,214 bi** | Agregado Comex Stat por domicílio fiscal |
+| Importações, jan–out/2026 | **US$ 183,3 mi** | Agregado Comex Stat no mesmo recorte |
+| Saldo comercial, jan–out/2026 | **US$ 1,030 bi** | Diferença calculada em dólares inteiros |
+
+**Leitura analítica:** as constituições anuais sem MEI passaram de 5.116 em 2023 para 6.077 em 2024 e 6.619 em 2025. A expansão entre 2024 e 2025 foi de aproximadamente 8,9%. Em setembro de 2026, serviços concentravam aproximadamente 52,7% dos vínculos formais divulgados. São evidências de universos distintos, não provas de relação causal ou crescimento de todos os subsetores.
+
+Fontes: [JUCEMG/Agência Minas](https://www.agenciaminas.mg.gov.br/noticia/minas-gerais-teve-mais-de-114-mil-novas-empresas-abertas-em-2025-128761), [CEPES/IERI/UFU — setembro de 2026](https://www.ieri.ufu.br/acontece/2026-11-boletim-mensal-do-emprego-de-uberlandia-setembro-de-2026), [Comex Stat/MDIC — município](https://comexstat.mdic.gov.br/pt/municipio) (consulta à API em 24/11/2026). A [documentação de resultados](docs/resultados.md) apresenta os valores completos, períodos e outras fontes. Comércio exterior refere-se ao domicílio fiscal do declarante, não necessariamente ao local de produção.
+
+## Arquitetura e competências técnicas
 
 ```mermaid
 flowchart TD
-    A[Fontes institucionais e documentos] --> B[Coleta e registro de proveniência]
-    B --> C[Normalização, recorte municipal e validação]
-    C --> D{Classificação de evidência}
-    D -->|P2 documental conferida| E[Base de apresentação versionada]
-    D -->|Lacunas, conflitos ou dados não verificados| F[Auditoria e bloqueio]
-    E --> G[HTML interativo offline]
-    E --> H[Aplicação Streamlit]
-    F --> I[Transparência e plano de investigação]
+    A[Fontes oficiais e documentos] --> B[Coleta e proveniência]
+    B --> C[Normalização e validação municipal]
+    C --> D{Classificação da evidência}
+    D -->|P2 conferida| E[Acervo documental versionado]
+    D -->|Lacunas ou conflitos| F[Auditoria e bloqueio]
+    E --> G[Dashboard HTML autônomo]
+    E --> H[Aplicação Streamlit privada]
+    F --> I[Transparência e investigação]
     G --> J[Visualizações e exportações]
-    H --> J
+    I --> G
 ```
 
-| Camada | Tecnologias implementadas |
+| Camada | Tecnologias utilizadas |
 |---|---|
 | Processamento e validação | Python, pandas, NumPy, CSV, SQLite |
 | Aplicação analítica | Streamlit, Plotly |
-| Interface de apresentação | HTML, CSS, JavaScript, SVG |
-| Qualidade e testes | unittest, Node.js, Playwright, GitHub Actions |
-| Versionamento e rastreabilidade | Git, registros documentais, hashes SHA-256 |
+| Interface | HTML, CSS, JavaScript, SVG |
+| Qualidade | unittest, Node.js, Playwright, GitHub Actions |
+| Rastreabilidade | Git, registros documentais, SHA-256 |
 
-A interface HTML é autônoma e não consulta fontes ao vivo. A aplicação Streamlit é uma camada separada; ferramentas experimentais e dados sintéticos são restritos ao ambiente de desenvolvimento.
+Este repositório reúne a interface de demonstração e a documentação. Os scripts de processamento, a aplicação Streamlit, as bases brutas e o histórico de desenvolvimento permanecem no repositório original privado. O front-end e o acervo incorporado podem ser inspecionados por quem recebe o HTML.
 
-## Metodologia e governança
+## Governança e metodologia
 
-Cada observação possui município, competência, indicador, unidade, universo, fonte e ressalva. A classificação de evidência evita transformar uma hipótese em dado confirmado.
+Cada observação registra município, competência, indicador, unidade, universo, fonte e ressalva. O observatório conserva divergências em vez de estimar resultados desconhecidos.
 
-| Nível | Significado |
+| Nível | Evidência |
 |---|---|
-| P0 | Simulação para desenvolvimento; não representa a economia real. |
-| P1 | Fonte ou recurso identificado. |
-| P2 | Valor conferido em publicação institucional ou agregado retornado por consulta oficial; não é série primária homologada. |
-| P3 | Arquivo primário obtido, hash registrado e processamento reproduzível. |
-| P4 | Série reconciliada, comparável e aprovada após revisão independente. |
+| P0 | Simulação restrita ao desenvolvimento; não representa a economia real |
+| P1 | Fonte ou recurso identificado |
+| P2 | Valor conferido em publicação institucional ou agregado oficial consultado |
+| P3 | Arquivo primário obtido, hash registrado e processamento reproduzível |
+| P4 | Série reconciliada, comparável e revisada independentemente |
 
-O projeto preserva conflitos em vez de interpolar resultados desconhecidos. Cadastros não medem faturamento, anúncios não comprovam execução e ausência de dados não significa zero.
+**25 observações P2, 29 extratos históricos selecionados, 7 alertas e nenhuma série P4 homologada.** O histórico de acontecimentos abrange 2022 a setembro de 2026, com atualizações qualitativas posteriores. Emprego até setembro e comércio exterior até outubro de 2026.
 
-**Fontes de investigação:** IBGE/SIDRA, Novo Caged, RAIS, JUCEMG, Comex Stat/MDIC, CEPES/UFU, Prefeitura de Uberlândia, CNES, Cadastur e ANEEL. Nem toda fonte catalogada possui indicador quantitativo homologado.
+![Tela real de auditoria, divergências e limites metodológicos](assets/screenshots/desktop-auditoria.png)
 
-## Qualidade e confiabilidade
+Cadastros não medem faturamento; anúncios não comprovam execução; falta de evidência não significa zero. Entre as fontes de investigação estão IBGE/SIDRA, Novo Caged, RAIS, JUCEMG, Comex Stat, CEPES/UFU, Prefeitura de Uberlândia, CNES, Cadastur e ANEEL.
 
-Em 24/11/2026, o candidato atualizado passou pelos seguintes controles automatizados:
+## Qualidade e validação
 
-- 141 testes Python aprovados, além de verificações JavaScript/Node e sincronização dos três HTMLs.
-- Chrome, Edge e Chromium reais em ambiente automatizado, com desktop e viewport móvel emulada; 21 cenários de responsividade nas sete páginas em 1440, 390 e 320 px sem transbordamento horizontal.
-- Sete rotas, filtros, busca, gráfico anual, exportações e conteúdo do CSV verificados.
-- Ausência de indicadores quantitativos simulados no HTML de apresentação nos controles executados.
-- Hash do HTML registrado, controles de privacidade e rastreabilidade.
+| Controle | Resultado em 24/11/2026 |
+|---|---|
+| Testes Python do candidato original | 141 aprovados |
+| Navegadores do candidato original | Chrome, Edge e Chromium em automação |
+| Edição estática de apresentação | 21 cenários aprovados no Chromium (7 rotas × 3 larguras: 1440, 390 e 320 px) |
+| Navegação, filtros, busca e exportações CSV/HTML | Aprovados na edição estática |
+| Indicadores quantitativos simulados na apresentação | Nenhum nos controles executados |
+| Mídia | 14 capturas reais, GIF e vídeo de 75,4 s, gerados da edição estática |
 
-A aprovação automatizada não substitui auditoria jurídica, teste físico, avaliação integral de acessibilidade ou homologação estatística.
+Os resultados da edição estática estão registrados em [evidência de QA](docs/qa-edicao.json) e [registro da edição](docs/registro-edicao.md). A aprovação técnica não representa certificação de acessibilidade, revisão jurídica integral ou homologação estatística.
 
-## Limites e evolução
+## Próximas etapas e limites
 
-A versão atual é **documental, não uma série estatística completa**. Saúde, hotelaria e energia solar são pilotos de coleta. O Cadastur teve download e recorte municipal preliminar verificados. A validade e a situação da atividade ainda exigem reconciliação; não se publica contagem de hotéis ativos sem homologação. Não são publicados números setoriais sem evidência suficiente. A API oficial do Comex Stat confirmou os agregados de janeiro a outubro; os valores de agosto permanecem como registro documental arredondado. A extração dos arquivos nacionais e a homologação P4 não foram concluídas.
+- Avaliação qualitativa da experiência do usuário: clareza, navegação, utilidade e percepção de valor.
+- Saúde e hotelaria: arquivos candidatos CNES e Cadastur obtidos, recortes ainda não homologados; revisar competência, atividade e validade.
+- Energia solar: aquisição dos dados primários ANEEL ainda não confirmada.
+- Conciliação, harmonização CNAE e validação independente de séries.
+- Revisão de acessibilidade, dispositivos físicos e condições de uso das fontes antes da divulgação pública.
 
-A evolução concentra-se em coleta primária, harmonização CNAE, comparabilidade temporal, validação independente e análises econômicas orientadas por dados.
+Não são apresentados números setoriais sem evidência suficiente. Os valores de comércio exterior de janeiro a agosto permanecem registros documentais arredondados; os agregados de janeiro a outubro foram confirmados pela API oficial. O projeto não constitui aconselhamento financeiro, avaliação de crédito ou recomendação de investimento.
 
-## Documentação do portfólio
+## Documentação
 
 | Documento | Conteúdo |
 |---|---|
-| [Arquitetura](docs/arquitetura.md) | Camadas, fluxo de dados, decisões de projeto |
-| [Metodologia](docs/metodologia.md) | Recorte, competências, níveis de evidência |
-| [Governança e qualidade](docs/governanca-de-dados.md) | Controles, testes, limitações e privacidade |
-| [Resultados](docs/resultados.md) | Leituras econômicas, fontes e interpretação |
-| [Demonstrações](assets/README.md) | Organização das capturas e vídeos do painel |
-| [Histórico de versões](CHANGELOG.md) | Escopo da versão de apresentação |
-| [Direitos e atribuições](DIREITOS.md) | Condições dos materiais e fontes |
-| [Registro da edição](docs/registro-edicao.md) | Proveniência, verificações e limites da candidata à publicação |
+| [Arquitetura](docs/arquitetura.md) | Camadas e fluxo de dados |
+| [Metodologia](docs/metodologia.md) | Universo, competências e evidência |
+| [Governança e qualidade](docs/governanca-de-dados.md) | Controles, privacidade e limites |
+| [Resultados](docs/resultados.md) | Indicadores e fontes |
+| [Demonstrações](assets/README.md) | Capturas, GIF e vídeo |
+| [Registro da edição](docs/registro-edicao.md) | Proveniência e verificação |
+| [Histórico de versões](CHANGELOG.md) | Evolução do projeto |
+| [Direitos e atribuições](DIREITOS.md) | Autoria e condições de uso |
 
-## Autoria e condições de uso
+## Autoria
 
 **Luiz Henrique Marques Costa** — projeto independente de portfólio em inteligência de negócios, Ciência de Dados e estatística aplicada.
 
-O software original e a interface demonstrativa estão sob a [PolyForm Strict License 1.0.0](https://polyformproject.org/licenses/strict/1.0.0/), que não é uma licença open source. Os dados, marcas e publicações institucionais de terceiros têm condições próprias; a licença do software não concede direitos sobre esses materiais. Os resultados têm caráter exploratório e não constituem aconselhamento financeiro, avaliação de crédito ou recomendação de investimento.
+O software original e a interface demonstrativa estão sob a [PolyForm Strict License 1.0.0](docs/PAINEL-LICENSE.txt), que não é uma licença open source. Dados, marcas e publicações institucionais possuem condições próprias; a licença do software não concede direitos sobre materiais de terceiros. O observatório não é uma plataforma governamental.
 
 ---
 
-*Dados com contexto. Análises com critérios. Inteligência com transparência.*
+<div align="center">
+
+**Dados com contexto. Análises com critérios. Inteligência com transparência.**
+
+</div>

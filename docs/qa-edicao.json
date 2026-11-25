@@ -1,0 +1,117 @@
+{
+  "status": "OK",
+  "sha256_html": "7598e5cc21e8d897906acef26ba391da5050b8bb21418a6e6d949736937dd239",
+  "cenarios": 21,
+  "screenshots": 14,
+  "video_segundos": 75.4,
+  "video_bytes": 1559425,
+  "gif_bytes": 1011690,
+  "checks": [
+    {
+      "width": 1440,
+      "route": "visao",
+      "status": "OK"
+    },
+    {
+      "width": 1440,
+      "route": "setores",
+      "status": "OK"
+    },
+    {
+      "width": 1440,
+      "route": "indicadores",
+      "status": "OK"
+    },
+    {
+      "width": 1440,
+      "route": "movimentos",
+      "status": "OK"
+    },
+    {
+      "width": 1440,
+      "route": "auditoria",
+      "status": "OK"
+    },
+    {
+      "width": 1440,
+      "route": "fontes",
+      "status": "OK"
+    },
+    {
+      "width": 1440,
+      "route": "relatorio",
+      "status": "OK"
+    },
+    {
+      "width": 390,
+      "route": "visao",
+      "status": "OK"
+    },
+    {
+      "width": 390,
+      "route": "setores",
+      "status": "OK"
+    },
+    {
+      "width": 390,
+      "route": "indicadores",
+      "status": "OK"
+    },
+    {
+      "width": 390,
+      "route": "movimentos",
+      "status": "OK"
+    },
+    {
+      "width": 390,
+      "route": "auditoria",
+      "status": "OK"
+    },
+    {
+      "width": 390,
+      "route": "fontes",
+      "status": "OK"
+    },
+    {
+      "width": 390,
+      "route": "relatorio",
+      "status": "OK"
+    },
+    {
+      "width": 320,
+      "route": "visao",
+      "status": "OK"
+    },
+    {
+      "width": 320,
+      "route": "setores",
+      "status": "OK"
+    },
+    {
+      "width": 320,
+      "route": "indicadores",
+      "status": "OK"
+    },
+    {
+      "width": 320,
+      "route": "movimentos",
+      "status": "OK"
+    },
+    {
+      "width": 320,
+      "route": "auditoria",
+      "status": "OK"
+    },
+    {
+      "width": 320,
+      "route": "fontes",
+      "status": "OK"
+    },
+    {
+      "width": 320,
+      "route": "relatorio",
+      "status": "OK"
+    }
+  ],
+  "limites": "Chromium automatizado; sem dispositivos físicos nem certificação WCAG; sem publicação"
+}

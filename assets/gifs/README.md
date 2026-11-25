@@ -1,3 +1,5 @@
-# GIFs demonstrativos
+# GIF de demonstração
 
-Área reservada à gravação real de navegação e filtros. Nenhum GIF publicado nesta versão candidata.
+![Navegação e filtros reais](navegacao-e-filtros.gif)
+
+[Voltar à apresentação](../../README.md)

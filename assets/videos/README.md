@@ -1,3 +1,7 @@
 # Vídeo demonstrativo
 
-Área reservada ao vídeo real de 60–90 segundos. Nenhum vídeo publicado nesta versão candidata.
+[Assistir ao vídeo real de navegação (75,4 segundos)](demonstracao-udi-beta.mp4)
+
+Gravação automatizada da interface real, sem narração.
+
+[Voltar à apresentação](../../README.md)

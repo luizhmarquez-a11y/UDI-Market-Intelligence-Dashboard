@@ -1,13 +1,11 @@
-# Demonstrações do painel
+# Demonstrações reais
 
-Este diretório receberá exclusivamente capturas reais da interface e registros de navegação do UDI Market Intelligence, após conferência de conteúdo e direitos.
+Mídias geradas em Chromium a partir da edição estática Beta 1.0 de 24/11/2026, com o hash registrado em [QA da edição](../docs/qa-edicao.json). Não são imagens sintéticas.
 
-As capturas de revisão foram geradas automaticamente pelo navegador a partir do candidato de 24/11/2026. As imagens devem preservar a interface real; cortes de viewport podem ser utilizados para apresentação, sem substituir ou alterar números.
+- [14 capturas desktop e mobile](screenshots/README.md)
+- [GIF de navegação e filtros](gifs/navegacao-e-filtros.gif)
+- [Vídeo demonstrativo de 75,4 segundos](videos/demonstracao-udi-beta.mp4)
 
-- [Capturas de tela](screenshots/README.md): sete páginas em desktop e móvel.
-- [GIFs](gifs/README.md): demonstração curta de navegação, filtros e pesquisa.
-- [Vídeos](videos/README.md): demonstração real de 60–90 segundos, destinada ao lançamento.
-
-Os arquivos de mídia ainda estão sendo preparados para revisão. Não há vídeo publicado nem site público ativo nesta edição. O painel estático de revisão está em [docs/index.html](../docs/index.html).
+A inspeção visual amostral das mídias foi realizada antes de sua incorporação. Ainda não houve divulgação pública.
 
 [Voltar à apresentação](../README.md)

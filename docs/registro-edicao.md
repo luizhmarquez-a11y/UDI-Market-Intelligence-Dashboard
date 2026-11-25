@@ -2,7 +2,7 @@
 
 **Data:** 24/11/2026. **Estado:** preparação privada, não publicada.
 
-A edição estática em `docs/index.html` deriva do candidato de desenvolvimento auditado em 24/11/2026 (commit de origem `9431dc5`; SHA-256 do HTML de origem: `073991a2db0bc43d16bb57ba410aa611d0b4fe4d3c92d7d0856576242178c346`). Os indicadores quantitativos e eventos são preservados. A edição de portfólio corrige exclusivamente a descrição de Q05, a nota de obtenção dos pilotos e o crédito de autoria do rodapé; não altera CSS, layout, navegação, cálculos ou valores. Hash SHA-256 da edição de portfólio: `7598e5cc21e8d897906acef26ba391da5050b8bb21418a6e6d949736937dd239`. Blob Git: `471cbdf7e0dac91add593b06c21976efb7c25404`. A reprodução independente da edição confirmou identidade exata do blob, CSS inalterado e igualdade dos indicadores, eventos, taxonomia, cobertura e extratos históricos com a origem. A execução de navegador própria está sendo verificada separadamente.
+A edição estática em `docs/index.html` deriva do candidato de desenvolvimento auditado em 24/11/2026 (commit de origem `9431dc5`; SHA-256 do HTML de origem: `073991a2db0bc43d16bb57ba410aa611d0b4fe4d3c92d7d0856576242178c346`). Os indicadores quantitativos e eventos são preservados. A edição de portfólio corrige exclusivamente a descrição de Q05, a nota de obtenção dos pilotos e o crédito de autoria do rodapé; não altera CSS, layout, navegação, cálculos ou valores. Hash SHA-256 da edição de portfólio: `7598e5cc21e8d897906acef26ba391da5050b8bb21418a6e6d949736937dd239`. Blob Git: `471cbdf7e0dac91add593b06c21976efb7c25404`. A reprodução independente da edição confirmou identidade exata do blob, CSS inalterado e igualdade dos indicadores, eventos, taxonomia, cobertura e extratos históricos com a origem. A execução de navegador da edição estática foi aprovada em 24/11/2026: 21 cenários, filtros, busca e exportações. A evidência está em [qa-edicao.json](qa-edicao.json). As 14 capturas, o GIF e o vídeo foram gerados a partir desta edição e inspecionados visualmente por amostragem.
 
 ## Superfície disponibilizável
 
@@ -16,10 +16,8 @@ A edição estática em `docs/index.html` deriva do candidato de desenvolvimento
 
 A aprovação não deve ser confundida com a preparação. Antes de abrir este repositório, revisar todos os arquivos versionados, inclusive o histórico e branches de QA; reconhecer a visibilidade do front-end e de seus dados incorporados; confirmar as limitações metodológicas, os direitos de terceiros e a revisão das mídias. A interface não é um produto financeiro, não consulta dados ao vivo e não está certificada para WCAG. Não publicar dados brutos, identificadores individuais ou arquivos internos.
 
-## Ativação
+## Acesso e publicação
 
-Somente após aprovação do responsável: tornar **este** repositório público; em Settings → Pages escolher Deploy from a branch, main, /docs; salvar; confirmar o endereço divulgado e testar anonimamente. GitHub Pages pode expor um site mesmo com repositório privado, por isso nenhuma configuração de hospedagem deve ser ativada antes da autorização. O repositório de desenvolvimento deve permanecer privado.
-
-Endereço previsto: https://luizhmarquez-a11y.github.io/UDI-Market-Intelligence-Dashboard/
+A avaliação utiliza o arquivo HTML baixado pelo GitHub, sem hospedagem autenticada ou implantação externa. Não há site público ativo. Uma eventual hospedagem pública dependerá de decisão posterior e autorização explícita. Antes de tornar este repositório público, revisar histórico, branches, direitos de terceiros e a exposição do front-end. O repositório original deve permanecer privado.
 
 [Voltar ao README](../README.md)
