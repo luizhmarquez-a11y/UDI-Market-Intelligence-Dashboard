@@ -20,6 +20,6 @@ A aprovação não deve ser confundida com a preparação. Antes de abrir este r
 
 Somente após aprovação do responsável: tornar **este** repositório público; em Settings → Pages escolher Deploy from a branch, main, /docs; salvar; confirmar o endereço divulgado e testar anonimamente. GitHub Pages pode expor um site mesmo com repositório privado, por isso nenhuma configuração de hospedagem deve ser ativada antes da autorização. O repositório de desenvolvimento deve permanecer privado.
 
-Endereço previsto: https://luizhmarquez-a11y.github.io/UDI-Market-Intelligence-Portfolio/
+Endereço previsto: https://luizhmarquez-a11y.github.io/UDI-Market-Intelligence-Dashboard/
 
 [Voltar ao README](../README.md)

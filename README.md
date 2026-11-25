@@ -10,11 +10,17 @@ O objetivo é transformar informações dispersas em evidências que possam orie
 
 ## Acesse o painel interativo
 
-**Endereço previsto do observatório:** [https://luizhmarquez-a11y.github.io/UDI-Market-Intelligence-Portfolio/](https://luizhmarquez-a11y.github.io/UDI-Market-Intelligence-Portfolio/)
+**[Acessar o dashboard — Beta 1.0](docs/index.html)**
 
-> O GitHub Pages ainda não foi ativado. O link passará a funcionar após a aprovação e publicação. Para revisão privada, [baixar a versão HTML de demonstração](docs/index.html) pelo botão **Download raw file** e abrir no navegador.
+### Avaliação privada
 
-O painel não exige cadastro ou instalação quando hospedado. As sete áreas, os filtros, a busca e as exportações funcionam diretamente no navegador.
+1. Acesse o arquivo pelo link acima, com sua conta GitHub autorizada neste repositório.
+2. Clique em **Download raw file** (ícone de download no canto superior direito da visualização do arquivo).
+3. Abra o arquivo `index.html` baixado no Chrome ou Edge. Não é necessário instalar programas ou iniciar um servidor.
+
+O painel funciona offline, com sete áreas de navegação, filtros, busca e exportações. O GitHub exibe o código do arquivo HTML, não a interface executada; por isso, é necessário baixá-lo para esta avaliação.
+
+**Hospedagem futura:** `https://luizhmarquez-a11y.github.io/UDI-Market-Intelligence-Dashboard/` — endereço previsto, ainda não ativo. O repositório permanece privado.
 
 ## O observatório em números
 
