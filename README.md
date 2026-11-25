@@ -20,7 +20,7 @@ O objetivo é transformar informações dispersas em evidências que possam orie
 
 O painel funciona offline, com sete áreas de navegação, filtros, busca e exportações. O GitHub exibe o código do arquivo HTML, não a interface executada; por isso, é necessário baixá-lo para esta avaliação.
 
-**Hospedagem futura:** `https://luizhmarquez-a11y.github.io/UDI-Market-Intelligence-Dashboard/` — endereço previsto, ainda não ativo. O repositório permanece privado.
+**Acesso direto pelo navegador:** hospedagem autenticada em preparação; o endereço será inserido somente após verificar a restrição de acesso. Por enquanto, utilize o arquivo HTML acima. Consulte o [protocolo de hospedagem privada](docs/hospedagem-privada.md). O repositório permanece privado.
 
 ## O observatório em números
 
