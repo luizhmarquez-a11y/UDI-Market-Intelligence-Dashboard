@@ -19,3 +19,5 @@
 - Demonstrações com animação opcional e alternativa textual ao vídeo.
 - Testes automatizados de acessibilidade em 14 cenários, sem violações confirmadas; verificações manuais ainda necessárias.
 - Revisão editorial da documentação, sem alteração da interface ou dos dados.
+
+- Retirada do selo superior de prévia no HTML distribuído; mídias históricas mantidas.

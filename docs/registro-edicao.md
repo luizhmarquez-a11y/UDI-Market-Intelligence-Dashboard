@@ -6,10 +6,11 @@ A edição de apresentação é um HTML autônomo, com indicadores, eventos, tax
 
 ## Verificação da edição
 
-- SHA-256 do HTML distribuído: `7598e5cc21e8d897906acef26ba391da5050b8bb21418a6e6d949736937dd239`. Permite verificar a integridade do arquivo baixado.
+- SHA-256 do HTML distribuído: `8e2310edd03b4eb68be4d8dbe8f7f601b0cae359c5ef7776e8f26a42e8a1c2a9`. Permite verificar a integridade do arquivo baixado.
+- A revisão visual de 27/11/2026 removeu exclusivamente o selo superior de prévia. O HTML anterior, usado nos testes de navegador e nas mídias, tem SHA-256 `7598e5cc21e8d897906acef26ba391da5050b8bb21418a6e6d949736937dd239`. Os dados, CSS, JavaScript, layout dos demais componentes e imagens foram preservados.
 - Em 24/11/2026, 21 cenários de navegador, navegação, filtros, buscas e exportações aprovados: [resultado dos testes](qa-edicao.json).
 - Em 27/11/2026, axe-core 4.10.3: 14 cenários em desktop e viewport mobile emulado, zero violações confirmadas, 18 ocorrências de regras incompletas e nenhum transbordamento horizontal. [Recursos e limitações de acessibilidade](acessibilidade.md).
-- As 14 capturas, o GIF e o vídeo foram gerados a partir da edição distribuída e inspecionados visualmente por amostragem.
+- As 14 capturas, o GIF e o vídeo foram gerados a partir da edição anterior à retirada do selo e inspecionados visualmente por amostragem.
 
 ## Escopo e limitações
 

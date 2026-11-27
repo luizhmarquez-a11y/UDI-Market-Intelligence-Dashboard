@@ -16,7 +16,7 @@ O README mantém as imagens estáticas e seus textos alternativos. O GIF fica vi
 
 ## Limites
 
-Em 27/11/2026, a edição distribuída (mesmo SHA-256 registrado em [registro da edição](registro-edicao.md)) passou por uma avaliação automatizada com axe-core 4.10.3:
+Em 27/11/2026, a edição anterior à retirada do selo de prévia (hash histórico no [registro da edição](registro-edicao.md)) passou por uma avaliação automatizada com axe-core 4.10.3:
 
 | Verificação | Resultado |
 |---|---|

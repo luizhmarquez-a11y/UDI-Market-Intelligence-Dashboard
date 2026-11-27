@@ -14,7 +14,7 @@
 | Interações | Navegação, filtros, busca, gráfico anual e exportações CSV/HTML |
 | Simulação | Zero indicadores quantitativos simulados na auditoria estática da apresentação |
 
-Os testes funcionais referem-se à edição de 24/11/2026. Em 27/11/2026, a avaliação automatizada axe-core 4.10.3 da edição distribuída registrou zero violações confirmadas em 14 cenários, com 18 ocorrências de regras incompletas. Contraste, identificação de links, retenção de foco após filtros, leitores de tela e aparelhos físicos requerem avaliação complementar. Não há certificação integral de WCAG. Consulte [acessibilidade](acessibilidade.md) e a [matriz de direitos das fontes](direitos-das-fontes.md).
+Os testes funcionais referem-se à edição de 24/11/2026. Em 27/11/2026, a avaliação automatizada axe-core 4.10.3 da edição anterior à retirada do selo de prévia registrou zero violações confirmadas em 14 cenários, com 18 ocorrências de regras incompletas. Contraste, identificação de links, retenção de foco após filtros, leitores de tela e aparelhos físicos requerem avaliação complementar. Não há certificação integral de WCAG. Consulte [acessibilidade](acessibilidade.md) e a [matriz de direitos das fontes](direitos-das-fontes.md).
 
 ## Alertas metodológicos
 

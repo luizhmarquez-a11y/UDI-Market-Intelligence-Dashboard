@@ -140,7 +140,7 @@ Cadastros não medem faturamento; anúncios não comprovam execução; falta de 
 | Edição estática de apresentação | 21 cenários aprovados no Chromium (7 rotas × 3 larguras: 1440, 390 e 320 px) |
 | Navegação, filtros, busca e exportações CSV/HTML | Aprovados na edição estática |
 | Indicadores quantitativos simulados na apresentação | Nenhum nos controles executados |
-| Mídia | 14 capturas reais, GIF e vídeo de 75,4 s, gerados da edição estática |
+| Mídia | 14 capturas reais, GIF e vídeo de 75,4 s, gerados antes da retirada do selo de prévia |
 
 Os resultados da edição estática estão registrados em [evidência de QA](docs/qa-edicao.json) e [registro da edição](docs/registro-edicao.md). Em 27/11/2026, a avaliação automatizada de acessibilidade com axe-core 4.10.3 não identificou violações confirmadas em 14 cenários; 18 ocorrências de regras exigem revisão manual. Consulte [acessibilidade](docs/acessibilidade.md). A aprovação técnica não representa certificação de acessibilidade, revisão jurídica integral ou homologação estatística.
 
