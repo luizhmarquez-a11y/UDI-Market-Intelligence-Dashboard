@@ -14,7 +14,7 @@
 | Interações | Navegação, filtros, busca, gráfico anual e exportações CSV/HTML |
 | Simulação | Zero indicadores quantitativos simulados na auditoria estática da apresentação |
 
-Os resultados referem-se ao candidato atualizado em 24/11/2026. A CI foi aprovada no commit interno 9431dc5. O painel não é certificado para todos os dispositivos nem para WCAG integral. Uma avaliação automatizada axe anterior não apontou violações confirmadas, mas deixou contraste e links para avaliação manual. A versão corrigida requer revisão de acessibilidade humana, além de testes em aparelhos físicos.
+Os resultados referem-se ao candidato atualizado em 24/11/2026. A CI foi aprovada no commit interno 9431dc5. O painel não é certificado para todos os dispositivos nem para WCAG integral. Uma avaliação automatizada axe anterior não apontou violações confirmadas, mas deixou contraste e links para avaliação manual. A edição requer revisão de acessibilidade humana, além de testes em aparelhos físicos. Consulte [acessibilidade](acessibilidade.md) e a [matriz de direitos das fontes](direitos-das-fontes.md).
 
 ## Alertas metodológicos
 

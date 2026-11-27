@@ -32,7 +32,14 @@ O painel é um HTML autônomo: funciona offline, sem instalações, servidor ou 
 
 ### Demonstração real
 
+<details>
+<summary>Exibir GIF de navegação (animação opcional)</summary>
+
 ![Gravação da navegação real pelo catálogo de mercados e filtro Saúde e Hospitais](assets/gifs/navegacao-e-filtros.gif)
+
+</details>
+
+[Alternativa textual à demonstração e ao vídeo](assets/videos/README.md). Feche a seção do GIF para ocultar o movimento.
 
 [**Vídeo demonstrativo completo (75 segundos)**](assets/videos/demonstracao-udi-beta.mp4) · [Galeria de capturas desktop e mobile](assets/screenshots/README.md)
 
@@ -159,6 +166,7 @@ Não são apresentados números setoriais sem evidência suficiente. Os valores 
 | [Registro da edição](docs/registro-edicao.md) | Proveniência e verificação |
 | [Histórico de versões](CHANGELOG.md) | Evolução do projeto |
 | [Direitos e atribuições](DIREITOS.md) | Autoria e condições de uso |
+| [Acessibilidade](docs/acessibilidade.md) | Recursos, testes e limitações |
 
 ## Autoria
 
