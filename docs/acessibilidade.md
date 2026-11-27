@@ -12,7 +12,7 @@
 
 ## Ajustes da apresentação — 27/11/2026
 
-O README mantém as imagens estáticas e seus textos alternativos. O GIF permanece disponível em seção expansível fechada inicialmente; pode ser ocultado pelo leitor. O vídeo não inicia automaticamente, e ganhou [alternativa textual](../assets/videos/README.md). Nenhum arquivo de mídia ou HTML do dashboard foi alterado nesta etapa.
+O README mantém as imagens estáticas e seus textos alternativos. O GIF fica visível inicialmente no README, em seção expansível que pode ser fechada pelo leitor para ocultar a animação. Na galeria do GIF, a seção permanece fechada inicialmente. O vídeo não inicia automaticamente, e ganhou [alternativa textual](../assets/videos/README.md). Nenhum arquivo de mídia ou HTML do dashboard foi alterado nesta etapa.
 
 ## Limites
 

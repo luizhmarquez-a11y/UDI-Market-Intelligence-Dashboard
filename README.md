@@ -32,8 +32,8 @@ O painel é um HTML autônomo: funciona offline, sem instalações, servidor ou 
 
 ### Demonstração real
 
-<details>
-<summary>Exibir GIF de navegação (animação opcional)</summary>
+<details open>
+<summary>GIF de demonstração — clique para ocultar ou exibir</summary>
 
 ![Gravação da navegação real pelo catálogo de mercados e filtro Saúde e Hospitais](assets/gifs/navegacao-e-filtros.gif)
 
