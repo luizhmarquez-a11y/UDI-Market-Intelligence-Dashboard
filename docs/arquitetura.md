@@ -37,4 +37,4 @@ flowchart TD
 - A versão de apresentação é autônoma: o conjunto documental é incorporado ao HTML, sem consultas externas automáticas.
 - A taxonomia representa uma estratégia de investigação por 12 mercados e 82 subsetores, não uma equivalência automática com séries CNAE.
 - Dados ausentes ou não conciliados permanecem identificados como lacunas, sem preenchimento artificial.
-- As rotinas de coleta e os arquivos internos permanecem no ambiente privado. O portfólio documenta a arquitetura e contém a interface estática executável no navegador; não disponibiliza ETL, aplicação Streamlit, arquivos de trabalho ou bases brutas.
+- O portfólio documenta a arquitetura e contém a interface estática executável no navegador, sem disponibilizar as rotinas de processamento ou as bases brutas.

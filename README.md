@@ -24,7 +24,7 @@ Market Intelligence · Data Science · Business Analytics · Data Governance
 
 ### [**Baixar e explorar o painel — Beta 1.0**](docs/index.html)
 
-1. Abra o link acima. Enquanto o repositório estiver privado, entre com uma conta autorizada no GitHub.
+1. Abra o link acima.
 2. Clique em **Download raw file** (ícone de download no canto superior direito da visualização do arquivo).
 3. Abra o arquivo `index.html` no Chrome ou Edge.
 
@@ -97,7 +97,7 @@ flowchart TD
     D -->|P2 conferida| E[Acervo documental versionado]
     D -->|Lacunas ou conflitos| F[Auditoria e bloqueio]
     E --> G[Dashboard HTML autônomo]
-    E --> H[Aplicação Streamlit privada]
+    E --> H[Aplicação analítica Streamlit]
     F --> I[Transparência e investigação]
     G --> J[Visualizações e exportações]
     I --> G
@@ -111,7 +111,7 @@ flowchart TD
 | Qualidade | unittest, Node.js, Playwright, GitHub Actions |
 | Rastreabilidade | Git, registros documentais, SHA-256 |
 
-Este repositório reúne a interface de demonstração e a documentação. Os scripts de processamento, a aplicação Streamlit, as bases brutas e o histórico de desenvolvimento permanecem no repositório original privado. O front-end e o acervo incorporado podem ser inspecionados por quem recebe o HTML.
+Este repositório reúne a interface de demonstração e a documentação. As rotinas de processamento e as bases brutas não integram esta edição. O front-end e o acervo documental incorporado podem ser inspecionados por quem recebe o HTML.
 
 ## Governança e metodologia
 
@@ -142,7 +142,7 @@ Cadastros não medem faturamento; anúncios não comprovam execução; falta de 
 | Indicadores quantitativos simulados na apresentação | Nenhum nos controles executados |
 | Mídia | 14 capturas reais, GIF e vídeo de 75,4 s, gerados da edição estática |
 
-Os resultados da edição estática estão registrados em [evidência de QA](docs/qa-edicao.json) e [registro da edição](docs/registro-edicao.md). A aprovação técnica não representa certificação de acessibilidade, revisão jurídica integral ou homologação estatística.
+Os resultados da edição estática estão registrados em [evidência de QA](docs/qa-edicao.json) e [registro da edição](docs/registro-edicao.md). Em 27/11/2026, a avaliação automatizada de acessibilidade com axe-core 4.10.3 não identificou violações confirmadas em 14 cenários; 18 ocorrências de regras exigem revisão manual. Consulte [acessibilidade](docs/acessibilidade.md). A aprovação técnica não representa certificação de acessibilidade, revisão jurídica integral ou homologação estatística.
 
 ## Próximas etapas e limites
 

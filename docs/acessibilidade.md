@@ -16,6 +16,17 @@ O README mantém as imagens estáticas e seus textos alternativos. O GIF permane
 
 ## Limites
 
-A revisão automatizada anterior de axe, realizada no candidato de desenvolvimento, não reportou violações confirmadas e deixou pontos de contraste e distinção de links para inspeção humana. Ela não equivale à avaliação integral da edição de portfólio. Testes físicos, leitores de tela, contraste em todos os estados, navegação exclusivamente por teclado, ampliação e critérios WCAG 2.2 ainda requerem avaliação complementar. Uma nova execução será registrada apenas depois de confirmada.
+Em 27/11/2026, a edição distribuída (mesmo SHA-256 registrado em [registro da edição](registro-edicao.md)) passou por uma avaliação automatizada com axe-core 4.10.3:
+
+| Verificação | Resultado |
+|---|---|
+| Sete páginas × duas larguras (1440 e 390 px) | 14 cenários |
+| Violações confirmadas | 0 |
+| Ocorrências de regras incompletas | 18 (14 de contraste e 4 de distinção de links) |
+| Transbordamento horizontal | 0 nos cenários |
+| Navegação por Enter e foco após troca de página | Funcionaram nos controles testados |
+| Alteração de filtro pelo teclado | Valor alterado; foco não permaneceu no controle |
+
+A ausência de violações confirmadas não significa conformidade integral. Testes físicos, leitores de tela, contraste em todos os estados, retenção de foco, ampliação e navegação exclusivamente por teclado ainda requerem avaliação complementar.
 
 [Voltar à apresentação](../README.md)
